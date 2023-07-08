@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">MyAppTest</string>
-    <string name="select_time">Select a time:</string>
+    <string name="app_name">Medication Tracker</string>
+    <string name="title_activity_locator">Locator_Activity</string>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>
