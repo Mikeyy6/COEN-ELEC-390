@@ -15,6 +15,21 @@
         android:theme="@style/Theme.MyAppTest"
         tools:targetApi="31">
         <activity
+            android:name=".Views.AccessibilityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Views.MedicationNotesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Views.SavedMedicationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Views.AddMedicationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Views.SettingsActivity"
+            android:exported="false" />
+        <activity
             android:name=".Views.Legal_Information_Activity"
             android:exported="false" />
         <activity
@@ -34,7 +49,7 @@
             android:exported="false" />
         <activity
             android:name=".Views.Login_Activity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".Views.MainActivity"
             android:exported="true" />
