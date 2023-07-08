@@ -35,6 +35,21 @@
             android:exported="false"
             android:label="@string/title_activity_maps" />
         <activity
+            android:name=".Views.AccessibilityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Views.MedicationNotesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Views.SavedMedicationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Views.AddMedicationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Views.SettingsActivity"
+            android:exported="false" />
+        <activity
             android:name=".Views.Legal_Information_Activity"
             android:exported="false" />
         <activity
