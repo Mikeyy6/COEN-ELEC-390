@@ -7,14 +7,16 @@
     android:orientation="vertical"
     android:gravity = "center"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Views.MainActivity">
 
+    <!-- User Text View -->
     <TextView
         android:id="@+id/user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"/>
 
+    <!-- Logout Button -->
     <Button
         android:id="@+id/logout"
         android:text="Logout"

@@ -8,7 +8,8 @@
     android:layout_gravity="center"
     android:orientation="vertical"
     android:padding="15dp"
-    tools:context=".LoginActivity">
+    android:background="@drawable/background_login"
+    tools:context=".Views.Login_Activity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -17,16 +18,19 @@
         app:cardCornerRadius="30dp"
         app:cardElevation="20dp"/>
 
+    <!-- Text View Login -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Login"
+        android:textColor="@color/black"
         android:textSize="36sp"
         android:textAlignment="center"
         android:layout_marginBottom="20dp"
         android:textStyle="bold" />
 
+    <!-- Email Text Field -->
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -43,31 +47,59 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
+        <!-- Password Text Field -->
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password"
             android:background="@drawable/border"
             android:drawableLeft="@drawable/baseline_lock_24"
             android:drawablePadding="8dp"
             android:hint="Password"
+            android:inputType="textPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </com.google.android.material.textfield.TextInputLayout>
 
+    <!-- Show Hide Password Checkbox -->
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Show Password"
+        android:id="@+id/show_password"/>
+
+    <!-- Progress Bar -->
     <ProgressBar
         android:id="@+id/progress_bar"
         android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
+    <!-- Forgot Password Text View -->
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Forgot Password"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_marginTop="12dp" />
+
+    <!-- Login Button -->
     <Button
         android:id="@+id/btn_login"
-        android:text="Login"
+        android:text="LOGIN"
+        android:textColor="@color/black"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:textSize="18sp"
+        android:textSize="20sp"
+        android:backgroundTint="@color/button"
         android:layout_marginTop="30dp"
         app:cornerRadius = "20dp"/>
 
+    <!-- Not Yet Registered Text Field -->
     <TextView
         android:textStyle="bold"
         android:textSize="20sp"
@@ -75,8 +107,8 @@
         android:layout_marginTop="20dp"
         android:id="@+id/sign_up_now"
         android:text="Not yet registered? Sign Up"
+        android:textColor="@color/black"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

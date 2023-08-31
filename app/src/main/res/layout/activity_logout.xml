@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity = "center"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Views.MainActivity">
+
+    <!-- User Text View -->
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"/>
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/logout"
+        android:text="Logout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/button"
+        android:textColor="@color/black"
+        app:cornerRadius = "20dp" />
+
+    <!-- Back Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="25dp"
+        android:text="Back"
+        android:backgroundTint="@color/button"
+        android:textColor="@color/black"
+        app:cornerRadius="20dp"
+        app:icon="@drawable/baseline_arrow_back_24"
+        app:iconGravity="textStart"
+        app:iconTint="@color/black" />
+
+
+</LinearLayout>
