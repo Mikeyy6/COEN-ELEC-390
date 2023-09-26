@@ -1,5 +1,5 @@
-## COEN-ELEC-390
+# COEN-ELEC-390
 
-# 'MEDIMAPS'
+## 'MEDIMAPS'
 Concordia University Mini Capstone
 Summer 2023
